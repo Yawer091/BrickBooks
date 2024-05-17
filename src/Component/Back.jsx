@@ -160,16 +160,14 @@ const Back = () => {
               src="https://www.bribooks.com/assets/images/BriBooks.svg"
               className="w-[100px] my-[10px]"
               alt=""
-              // srcset=""
             />
             <a href="https://www.bribooks.com/"> www.bribooks.com</a>
-            <p className=" text-[12px]  my-[5px]">
+            <p className=" text-[12px]  mt-[5px]">
               Previous Copy For Limited Distribution
             </p>
           </div>
           <div>
             <img
-              // src="https://qrickit.com/images/custom_design_qrickit.jpg"
               src="https://www.qrstuff.com/images/default_qrcode.png"
               className="w-[80px] h-[80px]"
               alt="QR"
