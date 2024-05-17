@@ -30,7 +30,6 @@ const Back = () => {
   const [selectedImage, setSelectedImage] = useState("");
   const [fontFamily, setFontFamily] = useState(fontFamilies[0]);
   const [fontColor, setFontColor] = useState("#000000");
-  // const [bgColor, setBg] = useState("#fff");
   const [descri, setdes] = useState("");
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
@@ -155,7 +154,6 @@ const Back = () => {
 
         <div className=" flex justify-between my-[10px] font-serif">
           <div>
-            {/* <h1 className="my-[5px]">img</h1> */}
             <img
               src="https://www.bribooks.com/assets/images/BriBooks.svg"
               className="w-[100px] my-[10px]"
